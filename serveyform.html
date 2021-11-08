@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="serveyfrom.css">
+    <title>servey form</title>
+</head>
+<body>
+    <h1>survey  form</h1>
+
+    <form id="form">
+
+
+        <div class="form-control">
+        <label for="fname">FirstName</label>
+        <input type="text" id="namef" name="fname" placeholder="enter your first name " required/>
+   
+        <label for="lname"> LastName</label>
+        <input type="text"  id="namel" name="lname" placeholder="enter your last name " required />
+    </div>
+
+
+    <div class="form-control">
+        <label for="email" id="label-email">email</label>
+        <input type="email" id="email" placeholder="enter your email" required/>
+
+    </div>
+
+    <div class="form-control">
+        <label for="DOB" id="dateofbirth"> Date of birth</label>
+        <input type="date" name="date of birth" id="dateofbirth" required/>
+    </div>
+
+
+    <div class="form-control">
+        <label for="age" id="age">age</label>
+        <input type="number"  name="age" id="age" required />
+
+
+    </div>
+
+
+    <div class="form-control">
+        <label for="role" id="label-role"> which option  best describes you?
+
+        </label>
+        <select name="role" id="role">
+            <option value="student">student</option>
+            <option value="intern">intern</option>
+            <option value="professional">professional</option>
+            <option value="other">other</option>
+        </select>
+
+        <div class=" form-control">
+            <label for="friend" id="label-friend">are you  interested?</label>
+            <select name="friend" id="friend">
+                <option value="yes"> yes</option>
+                <option value="no">No</option>
+                <option value="may be"> may be</option>
+            </select>
+
+        </div>
+
+
+        <div class="form-control">
+            <label for="rate"  id="rate"> give feedback  out of 10?</label>
+            <input type="number" name="marks" id="rate">
+            <label for="outof10" id="rate">out of 10</label>
+        </div>
+
+        <div class="form-control">
+
+        </div>
+
+        <div class="form-control">
+            <label for=""> you are skilled in?
+            <small>(check all that apply)</small>
+        </label>
+        <!-- input type check box-->
+        <label for="inp-1">
+            <input type="checkbox" name="inp">C</input>
+        </label>
+
+        <label for="inp-1">
+            <input type="checkbox" name="inp">C++</input>
+        </label>
+
+        <label for="inp-1">
+            <input type="checkbox" name="inp">java</input>
+        </label>
+
+        <label for="inp-1">
+            <input type="checkbox" name="inp">python</input>
+        </label>
+
+        <label for="inp-1">
+            <input type="checkbox" name="inp">Html</input>
+        </label>
+
+        <label for="inp-1">
+            <input type="checkbox" name="inp">css</input>
+        </label>
+
+
+        
+
+
+        
+        <label for="inp-1">
+            <input type="checkbox" name="inp">javascript</input>
+        </label>
+
+
+        <label for="inp-1">
+            <input type="checkbox" name="inp">mangoDB</input>
+        </label>
+
+        <label for="inp-1">
+            <input type="checkbox" name="inp">SQL</input>
+        </label>
+
+        <label for="inp-1">
+            <input type="checkbox" name="inp">nodeJS</input>
+        </label>
+
+
+
+
+
+
+
+
+
+        <div class="form-control">
+            <label for="comment">any comments or suggestions</label>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="enter your comment here"></textarea>
+        </div>
+
+
+
+
+
+<div class="submit">
+<!-- multi line text inpur control-->
+<button type="submit" value="submit"> submit</button>
+
+</div>
+
+
+
+</div>
+
+
+    
+
+
+    </form>
+</body>
+</html>
